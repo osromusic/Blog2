@@ -1,0 +1,25 @@
+site:
+  title: "BASSO BLOG"
+  subtitle: "Art, Music, Chaos"
+  limit: 10
+  theme: theme
+  lang: en
+  url: "http://github.com/osromusic/Blog2"
+  comment: Basso
+  logo: "-/images/logo.png"
+  # link "{category}/{year}/{month}/{day}/{title}.html"
+  root: "/blog"
+  
+authors:
+  me:
+        name: "Travis"
+        intro: "Artist"
+        avatar: "-/images/avatar.jpg"
+
+build:
+  output: "docs"
+  port: 8000
+  # copied files to public folder when build
+  copy:
+    - "source/images"
+    - "README.md"
